@@ -10,8 +10,8 @@ public class Practice {
 		Scanner tan = new Scanner(System.in);
 		System.out.println("단백질의 그램을 입력하세요");
 		Scanner dan = new Scanner(System.in);
-		String sum = (fat*9+tan*4+dan*4);		
-		System.out.println("총칼로리는 "+sum+" cal");				
+		
+						
 		
 		
 		
