@@ -3,7 +3,7 @@ package note;
  * @file_name : Method.java 
  * @author    : chanhok61@daum.net
  * @date      : 2015. 9. 15.
- * @story     : apthem
+ * @story     : 메소드
  */
 public class Method {
 	/**

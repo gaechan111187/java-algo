@@ -9,9 +9,11 @@ import java.util.Scanner;
  */
 public class Name {
 	public static void main(String[] args) {
-		System.out.println("당신의 이름은");
+		System.out.println("당신의 이름은?");
 		Scanner scanner = new Scanner(System.in);
+		Scanner scanner2 = new Scanner(System.in);
+		Scanner scannera = new Scanner(System.in);
 		String hong = scanner.next();
-		System.out.println(hong);	
+		System.out.println("반갑습니다. " +hong+ "님");	
 		}
 }

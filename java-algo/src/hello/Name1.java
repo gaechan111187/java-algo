@@ -9,8 +9,10 @@ public class Name1 {
 		Scanner scanner = new Scanner(System.in);
 		String yname = scanner.next();
 		System.out.println(yname);
+			
 		
 				
 	}
 
 }
+

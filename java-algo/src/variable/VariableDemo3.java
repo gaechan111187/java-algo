@@ -26,7 +26,7 @@ public class VariableDemo3 {
  *  2. 4바이트 메모릐 타입에 맞는 값을 세팅(할당)
  *  a= 5;
  *  
- *  데이.터 타입의 종류
+ *  데이터 타입의 종류
  *  기본형(primitive type) 기본자료형(첫글자가 소문자)
  *  참조형(reference type) 객체자료형(첫글자가 대문자 (예)String)
  *  
@@ -35,6 +35,11 @@ public class VariableDemo3 {
  *  실수형 : float < double < 
  *  논리형 : boolean
  *  문자형 : char
+ *  
+ *  객체 = 클래스 개념
+ *  프로젝트> 패키지> 클래스(김,이,박....)
+ *  홍(Scanner) 클래스
+ *  홍길동(Scanner scanner), 홍일동(Scanner scan) 동일 클래스
  *  
  */
 }
