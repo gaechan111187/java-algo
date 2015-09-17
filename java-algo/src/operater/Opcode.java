@@ -15,7 +15,8 @@ public class Opcode {
 		int a,b,c; // (데이터 타입= 타입) 타입이 동일한 변수를 선언할 때 묶음처리 가능
 		a=b=10;
 		c = a + b;
-		System.out.println(c);
+		System.out.println("결과값은?"+c);
+		
 		
 	}
 

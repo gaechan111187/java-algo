@@ -11,11 +11,11 @@ public class UnaryDemo2 {
 		 * i++(후위 연산자)는 먼저 i 값을 호출한 후 연산한다. 
 		 */
 		int i=10, j=10;
-		System.out.println("i++의 값 : "+ (i++));
-		System.out.println("j--의 값 : "+ (j--));
-		System.out.println("호출한 후 연산적용결과");
-		System.out.println("i++의 값 : "+ (i++));
-		System.out.println("j--의 값 : "+ (j--));
+		System.out.println("i++의 값 : "+ (i--));
+		System.out.println(i--);
+		System.out.println("i++의 값 : "+ (i--));
+		System.out.println(i);
+		
 	}
 
 }
