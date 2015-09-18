@@ -1,4 +1,7 @@
 package practice;
+
+import java.util.Scanner;
+
 /**
  * @file_name : CharPratice.java 
  * @author    : chanhok61@daum.net
@@ -7,10 +10,8 @@ package practice;
  */
 public class CharPratice {
 	public static void main(String[] args) {
-		char ch = '\u0041';
-		int code = (int)ch;
-		 System.out.println(ch);
-		 System.out.println(code);
-		 
+		Scanner scanner = new Scanner(System.in);
+		String ch = scanner.next();
+		
 	}
 }

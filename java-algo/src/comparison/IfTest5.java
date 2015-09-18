@@ -9,10 +9,11 @@ import java.util.Scanner;
  * @date : 2015. 9. 17.
  * @story : if테스트
  */
-public class IfTest4 {
+public class IfTest5 {
 	/**
-	 * To. 개발자님 프로그램을 하나 개발해야 합니다. 교수는 학생 평균을 입력하면 등수를 알려주는 기능을 추가해 달랍니다. 오더는
-	 * 다음과 같이 화면에 출력하려고 합니다. 학생이름 : 홍길동 (2) 학생이름 : 김유신 (1) 학생이름 : 강감찬 (3) 단)학생은
+	 * To. 개발자님 프로그램을 하나 개발해야 합니다. 교수는 학생 평균을 입력하면 1등학생을 출력하는 프로그램을 만들어주세요 오더는
+	 * 다음과 같이 화면에 출력하려고 합니다. 
+	 * ***학생이 1등입니다.
 	 * 총 3명입니다.
 	 */
 	public static void main(String[] args) {
@@ -41,44 +42,13 @@ public class IfTest4 {
 			System.out.println("3번학생 점수를 확인하세요");
 			return;
 		}
-		String fi = null;
-		String se = null;
-		String th = null;
-						
-		if (avg1 > avg2 && avg1 > avg3) {
-			fi = name1;
-			if (avg2>avg3) {
-				se = name2;
-				th = name3;
-						}
-			else {
-				se = name3;
-				th = name2;
-					}
-		}
-		else if (avg2>avg3 && avg2>avg1) {
-			fi = name2;
-			if (avg1>avg3) {
-				se = name1;
-				th = name3;
-			}
-			else {
-				se = name3;
-				th = name1;
-			}
-		}
+		String fir=null ;
+		if (avg1>avg2 && avg1>avg3) {
+			fir = name1;		}
+		else if (avg2>avg3) {
+			fir = name2	;	}
 		else {
-			fi = name3;
-			if (avg1>avg2) {
-				se = name1;
-				th = name2;
-			}
-			else {
-				se = name2;
-				th = name1;
-			}
-		} System.out.println("1등학생 : "+fi+", 2등학생 : "+se+", 3등학생 : "+th);
-	} 
-}
-
-		
+			fir = name3;	}
+		System.out.println(fir+"학생이 1등입니다.");	
+	}
+	}
