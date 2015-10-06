@@ -18,6 +18,7 @@ public class NumberNear {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("값을 입력하세요");
 		int gap = 0,result = 0,min=Integer.MAX_VALUE, target = scanner.nextInt();
+		
 		for (int i = 0; i < arr.length; i++) {
 			gap = Math.abs(target - arr[i]);
 			if (gap<min && gap!=0) {
