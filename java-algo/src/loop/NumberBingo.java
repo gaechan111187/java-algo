@@ -3,6 +3,8 @@ package loop;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import javax.swing.JOptionPane;
+
 public class NumberBingo {
 	/**
 	 *  1부터 10까지 랜덤숫자를 컴퓨터가 생성하면
@@ -12,12 +14,14 @@ public class NumberBingo {
 	
 	public static void main(String[] args) {
 		int com=0, player=0, count = 0;
-		Scanner scanner = new Scanner(System.in);
 		com =  (int) (Math.random()*10+1);
+		
+		
 		while(true){
+			player = Integer.parseInt(JOptionPane.showInputDialog("1부터 10까지 숫자를 입력하세요"));
 			try {
-				System.out.println("1부터 10까지 숫자를 입력하세요");
-				player = scanner.nextInt();
+
+				
 				count++ ; 
 				if (player==com) {
 					System.out.println("정답입니다.");
